@@ -1,0 +1,46 @@
+{
+  "name": "@rotiv/tasklist-sync",
+  "version": "1.0.0",
+  "description": "Wrapper for the Windows `tasklist` command. Returns a list of apps and services with their Process ID (PID) for all tasks running on either a local or a remote computer.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmartins/tasklist-sync.git"
+  },
+  "author": "Vitor Martins <vmartins@gmail.com>",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo --no-semicolon && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "tasklist",
+    "task",
+    "list",
+    "windows",
+    "win",
+    "win32",
+    "pid",
+    "process",
+    "processes",
+    "services",
+    "sync"
+  ],
+  "dependencies": {
+    "csv-parse": "^4.14.1",
+    "sec": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "xo": "^0.24.0"
+  },
+  "bugs": {
+    "url": "https://github.com/vmartins/tasklist-sync/issues"
+  },
+  "homepage": "https://github.com/vmartins/tasklist-sync#readme",
+  "main": "index.js"
+}
